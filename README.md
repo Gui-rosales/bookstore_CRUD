@@ -15,23 +15,23 @@ You will be able to connect to the api on [https://localhost:3000](https://local
 # Endpoints
 ## Routes to manipulate the data
 
-GET [localhost:3000/books/all](localhost:3000/books/all) - list all the books
+GET [localhost:3000/books/all](https://localhost:3000/books/all) - list all the books
 
-GET [localhost:3000/books/all/bookId](localhost:3000/books/all/:id) - list a specific book by its ID
+GET [localhost:3000/books/all/bookId](https://localhost:3000/books/all/:id) - list a specific book by its ID
 
-POST [localhost:3000/books/add](localhost:3000/books/add) - add a book to the database
+POST [localhost:3000/books/add](https://localhost:3000/books/add) - add a book to the database
 > Body: {
 	  "title": string,
 	  "author_id": int,
 	  "description": string,
 }
 
-PUT [localhost:3000/books/all/att/bookId](localhost:3000/books/all/att/id) - update a book in the database by its ID
+PUT [localhost:3000/books/all/att/bookId](https://localhost:3000/books/all/att/id) - update a book in the database by its ID
 > Body: {
 	  "title": string,
 	  "author_id": int,
 	  "description": string,
 }
 
-DELETE [localhost:3000/books/all/remove/bookId](localhost:3000/books/all/remove/id) - remove a book in the database by its ID
+DELETE [localhost:3000/books/all/remove/bookId](https://localhost:3000/books/all/remove/id) - remove a book in the database by its ID
 
